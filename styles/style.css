@@ -8,6 +8,7 @@
 
 body {
   font-family: "Fira Sans", sans-serif;
+  color: #0e0e0e;
   background-color: #f1f1f3;
 }
 
@@ -32,12 +33,17 @@ section {
   color: #ffffff;
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background-color: #005043;
 }
 
 .section-title {
   font-size: 40px;
   font-weight: 700;
-  color: #0e0e0e;
+
   margin-bottom: 32px;
 }
 
@@ -99,12 +105,13 @@ section {
 .hero h1 {
   font-size: 56px;
   font-weight: 700;
-  color: #0e0e0e;
+
   margin: 16px 0 24px 0;
 }
 
 /* Pillar Card Section */
 .pillar-card {
+  width: 302px;
   background-color: #ffffff;
   padding: 24px;
   border-radius: 16px;
@@ -119,7 +126,7 @@ section {
 .pillar-card h3 {
   font-size: 20px;
   font-weight: 700;
-  color: #0e0e0e;
+
   margin-bottom: 12px;
 }
 
@@ -136,6 +143,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 411px;
 }
 
 .vision-card-blue {
@@ -144,6 +152,11 @@ section {
 
 .vision-card-blue button {
   background-color: #5490f5;
+  cursor: pointer;
+}
+
+.vision-card-blue button:hover {
+  background-color: #3a6fcd;
 }
 
 .vision-card-green {
@@ -152,6 +165,11 @@ section {
 
 .vision-card-green button {
   background-color: #09a15c;
+  cursor: pointer;
+}
+
+.vision-card-green button:hover {
+  background-color: #007b44;
 }
 
 .vision-card-yellow {
@@ -160,6 +178,11 @@ section {
 
 .vision-card-yellow button {
   background-color: #ffc239;
+  cursor: pointer;
+}
+
+.vision-card-yellow button:hover {
+  background-color: #e6a00f;
 }
 
 .vision-card img {
@@ -170,7 +193,7 @@ section {
 .vision-card h3 {
   font-size: 20px;
   font-weight: 700;
-  color: #0e0e0e;
+
   margin-bottom: 12px;
 }
 
@@ -250,4 +273,183 @@ section {
   border: 1px solid #0e0e0e;
   background-color: #c6e4d6;
   border-radius: 4px;
+}
+
+/* Recent News Section */
+.recent-news {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.news-card {
+  background-color: #ffffff;
+  padding: 48px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.news-card img {
+  border-radius: 24px;
+}
+
+.news-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.news-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.news-content img,
+.news-content button {
+  width: fit-content;
+}
+
+.news-content .news-date-time {
+  display: flex;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.news-content h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.news-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+/* Donate Section */
+.donate-section {
+  text-align: center;
+}
+
+.donate {
+  padding: 0 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.amount-cards {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.amount-card {
+  background-color: #ffffff;
+  color: rgb(14, 14, 14, 0.8);
+  padding: 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.amount-card:hover {
+  background-color: #c6e4d6;
+}
+
+.amount-card h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.active {
+  background-color: #c6e4d6;
+}
+
+.donate input {
+  background: #ffffff;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 20px 40px;
+  height: 64px;
+  width: 1032px;
+}
+
+input::placeholder {
+  text-align: center;
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.donate button {
+  width: fit-content;
+}
+
+/* Subscribe Newsletter Section */
+.subscribe-section {
+  padding: 80px 100px;
+  background-color: #c6e4d6;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.subscribe-content {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.subscribe {
+  display: flex;
+}
+
+.subscribe button {
+  border-radius: 0 8px 8px 0;
+}
+
+.subscribe input {
+  border-radius: 8px 0 0 8px;
+  padding: 18px 40px;
+  border: none;
+  width: 100%;
+}
+
+.subscribe-section p {
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+/* Footer Section */
+footer {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 50px 160px;
+  text-align: center;
+}
+
+footer h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+footer hr {
+  margin: 32px 0;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 24px;
 }
