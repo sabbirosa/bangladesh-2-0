@@ -84,6 +84,11 @@ section {
   font-weight: 600;
 }
 
+#navbar button:hover {
+  background-color: #006a50;
+  color: #ffffff;
+}
+
 /* Hero Section */
 .hero {
   background-color: #c6e4d6;
