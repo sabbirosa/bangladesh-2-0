@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  background-color: #f1f1f3;
+}
+
+/* Common Styles */
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 160px;
+}
+
+.primary-btn {
+  padding: 17px 34px;
+  background-color: #006a50;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Navbar Section  */
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+
+#navbar h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#navbar button {
+  background-color: transparent;
+  cursor: pointer;
+  padding: 15px 30px;
+  color: #006a50;
+  border: 1px solid #006a50;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #c6e4d6;
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+  align-items: center;
+  padding: 80px 100px;
+  border-radius: 24px;
+  margin: 20px 0 80px 0;
+}
+
+.hero h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(13, 13, 13, 0.5);
+}
+
+.hero h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin: 16px 0 24px 0;
+}
