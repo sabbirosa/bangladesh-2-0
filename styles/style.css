@@ -190,3 +190,64 @@ section {
   font-size: 16px;
   font-weight: 600;
 }
+
+/* Quote Section */
+.quote {
+  background-image: url("../assets/quote-bg.png");
+  background-position: 24px 24px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 48px 24px;
+}
+
+.quote p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+}
+
+.quote h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(14, 14, 14, 0.8);
+  margin-bottom: 4px;
+}
+
+.quote h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(14, 14, 14, 0.6);
+}
+
+/* Opinion Section */
+.opinion {
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
+.opinion table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.opinion thead {
+  background-color: #c6e4d6;
+}
+
+.opinion th,
+.opinion td {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 24px;
+  text-align: left;
+}
+
+.opinion td select {
+  padding: 10px 14px;
+  border: 1px solid #0e0e0e;
+  background-color: #c6e4d6;
+  border-radius: 4px;
+}
