@@ -11,6 +11,11 @@ body {
   background-color: #f1f1f3;
 }
 
+header,
+section {
+  margin-bottom: 80px;
+}
+
 /* Common Styles */
 
 .container {
@@ -27,6 +32,25 @@ body {
   color: #ffffff;
   font-size: 18px;
   font-weight: 600;
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 32px;
+}
+
+.section-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
 }
 
 /* Navbar Section  */
@@ -63,7 +87,7 @@ body {
   align-items: center;
   padding: 80px 100px;
   border-radius: 24px;
-  margin: 20px 0 80px 0;
+  margin-top: 20px;
 }
 
 .hero h2 {
@@ -77,4 +101,92 @@ body {
   font-weight: 700;
   color: #0e0e0e;
   margin: 16px 0 24px 0;
+}
+
+/* Pillar Card Section */
+.pillar-card {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.pillar-card img {
+  width: 64px;
+  margin-bottom: 24px;
+}
+
+.pillar-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 12px;
+}
+
+.pillar-card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+/* Vision Card Section */
+.vision-card {
+  padding: 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.vision-card-blue {
+  background-color: rgba(84, 143, 245, 0.2);
+}
+
+.vision-card-blue button {
+  background-color: #5490f5;
+}
+
+.vision-card-green {
+  background-color: #c6e4d6;
+}
+
+.vision-card-green button {
+  background-color: #09a15c;
+}
+
+.vision-card-yellow {
+  background-color: #f7ebcf;
+}
+
+.vision-card-yellow button {
+  background-color: #ffc239;
+}
+
+.vision-card img {
+  width: 64px;
+  margin-bottom: 24px;
+}
+
+.vision-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 12px;
+}
+
+.vision-card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.vision-card button {
+  width: fit-content;
+  margin-top: 24px;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
 }
